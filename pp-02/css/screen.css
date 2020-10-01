@@ -21,19 +21,19 @@ td, article, aside, canvas, details, embed, figure, figcaption, footer, header, 
 
 html {
   font-family: 'Amiri', 'Hoefler Text', Georgia, 'Times New Roman', Times, Roman, serif;
-  font-size: 20px;
-  line-height: 25px;
+  font-size:  1.25em;/*20px/16px */
+  line-height: 1.25em;/*25px/20px */
 }
 h1, h2, h3, h4{
-  padding-bottom: 25px;
+  padding-bottom: 1.5625em; /* 25px/ 16px*/
 }
 ul, ol {
-  margin-left: 20px;
+  margin-left: 1.25em;/*20px/16px */
   list-style-type: disc;
-  padding-bottom: 12.5px;
+  padding-bottom: 0.78125em;/* 12.5px/16px */
 }
 li{
-  padding-bottom: 12.5px;
+  padding-bottom: 0.78125em;/* 12.5px/16px */
 }
 .quick-facts{
   list-style-type: disc;
