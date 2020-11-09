@@ -52,15 +52,16 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 @media screen and (min-width: 600px) {
   #two, #one{
     width: 50vw;
+    height: 50vw;
   }
   #three{
     width: 100vw;
   }
-  #content{
-
-  }
 }
 
 @media screen and (min-width: 800px) {
-
+  #one, #two, #three{
+    width: 33.33333333vw;
+    height: 33.33333333vw;
+  }
 }
