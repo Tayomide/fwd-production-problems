@@ -18,9 +18,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 /* ===== BASE STYLES ===== */
 
 /* ==== MODULAR STYLES === */
-#three,
-#two,
-#one {
+section {
   color: white;
 }
 #three {
@@ -34,31 +32,22 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 #one {
   background-color: red;
 }
-
-
 /* ==== LAYOUT STYLES ==== */
 #content {
   display:flex;
   flex-direction:row;
   flex-wrap: wrap;
 }
-#three,
-#two,
-#one {
+section {
   height: 100vw;
   width:100vw;
 }
-
 @media screen and (min-width: 600px) {
   #two, #one{
     width: 50vw;
     height: 50vw;
   }
-  #three{
-    width: 100vw;
-  }
 }
-
 @media screen and (min-width: 800px) {
   #one, #two, #three{
     width: 33.33333333vw;
