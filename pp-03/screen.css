@@ -25,9 +25,11 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 #three {
   background-color: purple;
+  order: 2;
 }
 #two {
   background-color: green;
+  order: 1;
 }
 #one {
   background-color: red;
@@ -36,7 +38,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 /* ==== LAYOUT STYLES ==== */
 #content {
-
+  display:flex;
+  flex-direction: column;
 }
 
 #three,
